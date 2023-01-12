@@ -1,0 +1,19 @@
+.test
+{
+	display: flex;
+	flex-direction: column;
+/*	justify-content: space-around;*/
+	align-items: center;
+
+/*	justify-content: ;*/
+}
+
+.test div
+{
+	height: 100%;
+	margin-top: 20px;
+	width: 50%;
+	border: 1px solid black;
+}
+
+

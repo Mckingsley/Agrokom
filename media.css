@@ -1,0 +1,149 @@
+@media screen  and (max-width:992px)
+{
+    div .home, div .garde
+    {
+        display: flex;
+        align-items: center;
+
+    /*	justify-content: center;
+    /*	margin-top: 10%;*/
+    /*	width: auto;*/
+        height: 200vh;
+        flex-direction: column;
+        background:rgba(0, 0, 0, 0.5) url("images/acceuil/ac9.jpg") ;
+        background-size:cover ;
+        background-blend-mode: darken;
+    }
+    
+    .produits
+    {
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+    /*	align-items: center;*/
+    }
+    .home .text, .garde .text
+    {
+        margin-bottom: 20px;
+        font-family: "Raleway", sans-serif;
+        width: 80%;
+        color: white;
+        font-size: 15px;
+        /* letter-spacing: 1px; */
+        /* line-height: max(1, 2); */
+    	font-weight: bold;
+        text-justify: auto;
+        text-transform: uppercase;
+
+    }
+    .text a {
+        color: white;
+        /* border: 1px solid rgb(227, 227, 8); */
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 1%;
+        background-color: #086634 ;
+        margin-left: 35%;
+    }
+
+    div .logo_garde a img
+    {
+        /* display: inline-block; */
+        /* width:625px ;
+        height:342px; */
+        height: 300px;
+        width: auto;
+    }
+
+    .produits div
+{
+	height: 250px;
+	width: 300px;
+	border: 5px solid #f8fbfa;
+	border-radius: 30px;
+	color: white;
+/*	font-size: 30px;*/
+	text-transform: uppercase;
+
+/*	margin: 3% 10% 0 10%;*/
+	margin-right: 20px;
+/*	padding: 25%;*/
+	margin-bottom: 20px;
+}
+
+}
+
+@media screen  and (min-width:993px) and (max-width:1700px)
+{
+    div .home, div .garde
+    {
+        display: flex;
+        align-items: center;
+
+    /*	justify-content: center;
+    /*	margin-top: 10%;*/
+    /*	width: auto;*/
+        height: 200vh;
+        flex-direction: column;
+        background:rgba(0, 0, 0, 0.5) url("images/acceuil/ac6.jpg") ;
+        background-size:cover ;
+        background-blend-mode: darken;
+    }
+    
+    .produits
+    {
+        display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+    /*	align-items: center;*/
+    }
+    .home .text, .garde .text
+    {
+        margin-bottom: 20px;
+        font-family: "Raleway", sans-serif;
+        width: 40%;
+        color: white;
+        font-size: 20px;
+        /* letter-spacing: 1px; */
+        /* line-height: max(1, 2); */
+    	font-weight: bold;
+        text-justify: auto;
+        text-transform: uppercase;
+
+    }
+    .text a {
+        color: white;
+        /* border: 1px solid rgb(227, 227, 8); */
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 1%;
+        background-color: #086634 ;
+        margin-left: 35%;
+    }
+
+    div .logo_garde a img
+    {
+        /* display: inline-block; */
+        /* width:625px ;
+        height:342px; */
+        height: 400px;
+        width: auto;
+    }
+
+    .produits div
+{
+	height: 250px;
+	width: 300px;
+	border: 5px solid #086634;
+	border-radius: 30px;
+	color: white;
+/*	font-size: 30px;*/
+	text-transform: uppercase;
+
+/*	margin: 3% 10% 0 10%;*/
+	margin-right: 20px;
+/*	padding: 25%;*/
+	margin-bottom: 20px;
+}
+
+}
